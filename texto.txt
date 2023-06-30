@@ -62,6 +62,51 @@ git add .
 git commit -m "Primer commit"
 
 
+Repasamos el codigo que pegamos:
 
 
+echo "# ifix-proyecto-coder" >> README.md  
+
+(Esto es para crear un archivo .md con el nombre del proyecto)
+
+
+git init
+
+(Para crear un repositorio)
+
+git add README.md
+
+(hace el git add del archivo del archivo README.md que creamos )
+
+
+git commit -m "first commit"
+
+(hace el commit del README.md)
+
+git branch -M main
+
+(Nombra esta rama como main )
+
+
+git remote add origin https://github.com/AntonBlood/ifix-proyecto-coder.git
+
+(Le especificamos cual es la url del repositorio remota, es decir a donde va a subir los archivos )
+
+git push -u origin main
+
+(git push lo que hace es subir los archivos del repositorio local al remoto, nos va a permitir enviar cualquier cambio a GitHub)
+
+
+Hacemos un nuevo:
+
+git add .
+
+git commit -m "Agrego instrucciones"
+
+
+git push    #Sube los cambios al repositorio en la nube
+
+Cuando hago git push no hace falta indicarle el nombre de la rama remota, pues el git push -u origin main solo lo hago una vez. 
+
+Ahora si veo mi repositorio en la nube, ya tengo los archivos subidos a GitHub.
 
